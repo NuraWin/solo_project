@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+a{
+  font-size: 14px;
+  text-decoration: none;
+  color:#929ECC;
+  transition: 300ms;
+}
+
+a:hover {
+  color:#556296;
+}
+
+
+p {
+  color: #6F7CB2;
+  font-size: 14px;
+  margin-bottom:15px;
+
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  display: inline-block;
+  min-width: 160px;
+  background-color: #111B47;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px 10px;
+  transition: 300ms;
+}
+
+.btn-primary--sx {
+  font-size: 14px;
+  padding: 6px 10px
+}
+
+.btn-primary:hover {
+  background-color: #182769;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #091133;
+}
+
+
+
+.navbar a {
+  margin-right:  40px;
+}
+
+.section__price {
+  position: relative;
+  background-color: #f3f5ff;
+  padding: 150px 0 100px;
+}
+.section__price:before{
+content: '';
+width: 120%;
+height: 300px;
+display: inline-block;
+background: white;
+position: absolute;
+top: -238px;
+left: -10%;
+right: 0;
+margin: auto;
+border-radius: 30%;
+}
+
+.price__content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price__content h2 {
+  margin-bottom: 20px;
+}
+.price__content p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.price__amount {
+  margin-bottom: 40px;
+}
+
+.price__amount h4 {
+  font-size: 50px;
+  line-height: 66px;
+  font-weight: 500;
+  color: #222F65;
+}
+.price__amount span {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #37447E
+}
+
+.price__cta span {
+display: block;
+font-size: 14px;
+line-height: 24px;
+margin-bottom: 10px;
+color: #5D6970;
+}
+
+
+.footer {
+  background-color: #E7ECFF;
+  padding-top:20px;
+}
+.footer__content, .footer__links{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap:15px;
+}
+.footer__content {
+  padding: 20px 0;
+}
+.footer__links{
+  border-top: 1px solid #CDD1D4;
+  padding: 20px 0;
+}
+
+.footer__copy,  .footer__cta{
+  width: 100%;
+  max-width: 200px;
+}
+.footer__copy {
+  color: #939EA4;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.footer__social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.footer__social a {
+  transform-origin: center;
+  transition:300ms;
+}
+.footer__social a:hover {
+  transform: scale(1.2);
+}
